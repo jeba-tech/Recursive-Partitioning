@@ -1,0 +1,45 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 2px;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  width: 80%;
+  height: 80%;
+  border: 1px solid #000;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+
+.partition {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+ 
+  border: 1px solid #000;
+  margin-left:0px;
+  background-color: #fff;
+  resize: both;
+  overflow: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.split-btn,
+.remove-btn {
+  padding: 5px;
+  margin: 2px;
+  cursor: pointer;
+}
